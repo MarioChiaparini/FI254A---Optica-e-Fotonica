@@ -142,3 +142,6 @@ epsilon_2[basis0.get_dofs(elements="core_2")] = 3.4777**2
 modes_2 = compute_modes(basis0, epsilon_2, wavelength=wavelength, mu_r=1, num_modes=1)
 modes_2[0].show(modes_2[0].E.real, direction="x")
 
+
+
+

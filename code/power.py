@@ -12,10 +12,10 @@ from skfem.io import from_meshio
 from femwell.maxwell.waveguide import compute_modes
 from femwell.mesh import mesh_from_OrderedDict
 
-length = 200
-ts = np.linspace(0, length, 1000)
+length = 2500
+ts = np.linspace(0, length, 1500)
 
-case = "identical"           # or non_identical
+case = "non_identical"           # non_identical or identical
 w = 0.50                     # width microm
 t = 0.25                     # thickness miro m
 
